@@ -91,7 +91,8 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-define( 'wp_memory_limit', '256m' );
+set_time_limit(300);
+@ini_set( 'max_input_vars' , 3000 );
 
 // Optional S3 credentials for file storage.
 if (isset($_ENV['S3_KEY_ID']) && isset($_ENV['S3_ACCESS_KEY'])) {
