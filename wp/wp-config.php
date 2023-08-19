@@ -20,23 +20,23 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-if (isset($_ENV['DATABASE'])) {
-  define( 'DB_NAME', $_ENV['DATABASE'] );
+if (isset($_ENV['latestx'])) {
+  define( 'DB_NAME', $_ENV['latestx'] );
 }
 
 /** Database username */
-if (isset($_ENV['USERNAME'])) {
-  define( 'DB_USER', $_ENV['USERNAME'] );
+if (isset($_ENV['wbscfb10ev1k7vcfjntn'])) {
+  define( 'DB_USER', $_ENV['wbscfb10ev1k7vcfjntn'] );
 }
 
 /** Database password */
-if (isset($_ENV['PASSWORD'])) {
-  define( 'DB_PASSWORD', $_ENV['PASSWORD'] );
+if (isset($_ENV['pscale_pw_EGezAlqU5qnimrpOVMbGwOQ0auB8NwxpBqsY1NIynEv'])) {
+  define( 'DB_PASSWORD', $_ENV['pscale_pw_EGezAlqU5qnimrpOVMbGwOQ0auB8NwxpBqsY1NIynEv'] );
 }
 
 /** Database hostname */
-if (isset($_ENV['HOST'])) {
-  define( 'DB_HOST', $_ENV['HOST'] );
+if (isset($_ENV['aws.connect.psdb.cloud'])) {
+  define( 'DB_HOST', $_ENV['aws.connect.psdb.cloud'] );
 }
 
 /** Database charset to use in creating database tables. */
